@@ -6,7 +6,7 @@ public class FibonacciNumber {
 		System.out.println(fibonacciNumber(9));
 	}
 
-	public static int fibonacciNumber(int n) {
+	public static int getFibNumber(int n) {
 		if (n == 1 || n == 2) {
 			return 1;
 		}
